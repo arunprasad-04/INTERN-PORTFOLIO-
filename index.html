@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Arunprasad M – B.Tech IT undergraduate and aspiring Software Engineer skilled in full-stack web development." />
+  <title>Arunprasad M | Portfolio</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'>A</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Arunprasad M – home">Arun<span>prasad</span></a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <span id="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+        <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">👋 Hello, I'm</p>
+          <h1 id="hero-title">Arunprasad M</h1>
+          <p class="typed-line">I build <span id="typed" class="typed" aria-live="polite">web experiences</span><span class="cursor" aria-hidden="true">|</span></p>
+          <p class="pitch">
+            B.Tech IT undergraduate crafting responsive, user-focused web apps and
+            AI-powered solutions — turning ideas into clean, scalable software.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="avatar">
+            <span>AM</span>
+          </div>
+          <div class="chip chip-1">React.js</div>
+          <div class="chip chip-2">Node.js</div>
+          <div class="chip chip-3">Python</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 class="section-title" id="about-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm a motivated <strong>B.Tech Information Technology</strong> student
+              (graduating 2027) at St. Joseph's College of Engineering, Chennai, with a
+              strong foundation in full-stack web development, data structures,
+              problem-solving, and debugging.
+            </p>
+            <p>
+              I enjoy building products end to end — from designing the UI in Figma to
+              wiring up REST APIs and databases. I'm seeking a <strong>Software Engineer</strong>
+              role where I can build scalable solutions and contribute effectively in
+              Agile team environments.
+            </p>
+            <ul class="facts">
+              <li><span>🎓</span> B.Tech IT · CGPA 8.13 / 10</li>
+              <li><span>📍</span> Chennai, India</li>
+              <li><span>💼</span> Web Developer Intern @ NLC India Limited</li>
+              <li><span>🏆</span> IIT Bombay Mapathon 2024 &amp; 2025 – Notable Participant</li>
+            </ul>
+          </div>
+
+          <div class="timeline reveal" aria-label="Education and experience timeline">
+            <article class="t-item">
+              <h3>Web Developer Intern</h3>
+              <p class="t-meta">NLC India Limited · Jun 2025 – Jul 2025</p>
+              <p>Built the front-end of a Visitor Management System with responsive pages for visitor registration, approvals, and entry tracking.</p>
+            </article>
+            <article class="t-item">
+              <h3>B.Tech, Information Technology</h3>
+              <p class="t-meta">St. Joseph's College of Engineering · 2023 – 2027</p>
+              <p>CGPA: 8.13 / 10 (present).</p>
+            </article>
+            <article class="t-item">
+              <h3>Higher Secondary</h3>
+              <p class="t-meta">Jawahar Higher Secondary School · 2022 – 2023</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 class="section-title" id="skills-title">Skills</h2>
+        <div class="skills-grid">
+          <article class="card reveal">
+            <h3>🌐 Frontend</h3>
+            <ul class="tags">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>React.js</li><li>Responsive Design</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>⚙️ Backend &amp; APIs</h3>
+            <ul class="tags">
+              <li>Java</li><li>Node.js (Basics)</li><li>REST APIs</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>🗄️ Databases</h3>
+            <ul class="tags">
+              <li>MySQL</li><li>MongoDB</li><li>Firebase</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>🎨 UI/UX &amp; Design</h3>
+            <ul class="tags">
+              <li>Figma</li><li>Canva</li><li>Wireframing</li><li>UI Prototyping</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>🤖 AI &amp; ML</h3>
+            <ul class="tags">
+              <li>NLP Basics</li><li>Emotion Recognition</li><li>Chatbot Development</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>💻 Programming</h3>
+            <ul class="tags">
+              <li>Java</li><li>JavaScript</li><li>Python</li><li>C</li>
+            </ul>
+          </article>
+          <article class="card card-wide reveal">
+            <h3>🧠 Core Concepts</h3>
+            <ul class="tags">
+              <li>Data Structures</li><li>OOP</li><li>CRUD</li><li>Web Performance</li><li>Cross-Browser Compatibility</li>
+            </ul>
+          </article>
+        </div>
+
+        <h3 class="sub-title">Certifications</h3>
+        <ul class="certs reveal">
+          <li>🏅 Figma UI/UX Design — GUVI</li>
+          <li>🏅 Front-End Developer Certification — Meta</li>
+          <li>🏅 Networking and Web Technology — Cisco</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 class="section-title" id="projects-title">Projects</h2>
+
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" type="button" data-filter="all">All</button>
+          <button class="filter-btn" type="button" data-filter="ai">AI / ML</button>
+          <button class="filter-btn" type="button" data-filter="web">Web</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project card" data-category="ai web">
+            <div class="project-thumb thumb-1" aria-hidden="true">🧠</div>
+            <h3>AI-Based Mental Health Companion</h3>
+            <p>
+              An AI-powered chatbot with facial emotion recognition for mood tracking,
+              personalized responses and relaxation guidance. Integrates NLP, voice I/O
+              and emotion-based music recommendations.
+            </p>
+            <ul class="tags small">
+              <li>Python</li><li>NLP</li><li>Emotion Recognition</li><li>Voice I/O</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+            </div>
+          </article>
+
+          <article class="project card" data-category="web">
+            <div class="project-thumb thumb-2" aria-hidden="true">💬</div>
+            <h3>Communication Bridge</h3>
+            <p>
+              A custom Zoho Cliq extension that bridges Zoho Cliq and Discord for
+              real-time message sharing, with slash commands, REST APIs and a Node.js
+              backend for seamless cross-platform communication.
+            </p>
+            <ul class="tags small">
+              <li>Node.js</li><li>REST APIs</li><li>Zoho Cliq</li><li>Discord</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+            </div>
+          </article>
+
+          <article class="project card" data-category="ai web">
+            <div class="project-thumb thumb-3" aria-hidden="true">🦺</div>
+            <h3>AI-Powered Smart Industrial Safety System</h3>
+            <p>
+              A workplace safety monitoring system built on YOLOv8 object detection,
+              delivered as a full-stack application to flag safety violations in real time.
+            </p>
+            <ul class="tags small">
+              <li>YOLOv8</li><li>Python</li><li>Full-Stack</li><li>Computer Vision</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+            </div>
+          </article>
+
+          <article class="project card" data-category="web">
+            <div class="project-thumb thumb-4" aria-hidden="true">🏢</div>
+            <h3>Visitor Management System (Internship)</h3>
+            <p>
+              Front-end for NLC India Limited's visitor management system: responsive
+              pages for visitor registration, approvals and entry tracking.
+            </p>
+            <ul class="tags small">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="container contact">
+        <h2 class="section-title" id="contact-title">Get In Touch</h2>
+        <p class="contact-lead">
+          I'm open to internships and entry-level Software Engineer roles. Have an
+          opportunity or just want to say hi? My inbox is always open.
+        </p>
+
+        <ul class="contact-list">
+          <li>
+            <span aria-hidden="true">✉️</span>
+            <!-- TODO: replace with your real email address -->
+            <a href="mailto:your.email@example.com">your.email@example.com</a>
+          </li>
+          <li>
+            <span aria-hidden="true">📞</span>
+            <a href="tel:+919344800561">+91 93448 00561</a>
+          </li>
+          <li>
+            <span aria-hidden="true">💼</span>
+            <!-- TODO: replace with your LinkedIn profile URL -->
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </li>
+          <li>
+            <span aria-hidden="true">🐙</span>
+            <!-- TODO: replace with your GitHub profile URL -->
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </li>
+        </ul>
+
+        <a class="btn btn-primary" href="mailto:your.email@example.com">Say Hello</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Arunprasad M. All rights reserved.</p>
+      <a href="#top" class="to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
